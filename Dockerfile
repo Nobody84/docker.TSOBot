@@ -16,4 +16,6 @@ RUN apt-get update && apt-get install -y \
 # install TSOBot
 RUN npm install tsobot
 
+WORKDIR /node_modules/tsobot/
+
 CMD ["npm","start"]
