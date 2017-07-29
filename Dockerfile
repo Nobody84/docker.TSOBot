@@ -1,4 +1,4 @@
-FROM node:alpine 
+FROM node 
 MAINTAINER TopCat <topmailcat@googlemail.com>
 
 ENV DEBIAN_FRONTEND noninteractive 
